@@ -68,37 +68,40 @@ Provision the necessary AWS services needed for running the application:
 
 ## Configuration Screenshots
 
+### Architecture
+
+![Architecture](./docs/images/architecture.png)
+![PipeLine Schema](./docs/images/CircleCI.png)
+
 ### Elastic Beanstalk Environment
 
-![Elastic Beanstalk Environment](./images/eb.png)
+![Elastic Beanstalk ENV status](./docs/images/eb.png)
+![Elastic Beanstalk Environments](./docs/images/envs.png)
 
 ### FrontEnd S3 Bucket
 
-![FrontEnd S3 Bucket](./images/frontend_s3.png)
+![FrontEnd S3 Bucket](./docs/images/frontend_s3.png)
 
 ### Backend S3 Bucket
 
-![Backend S3 Bucket](./images/backend_s3.png)
+![Backend S3 Bucket](./docs/images/backend_s3.png)
 
 ### PostgreSQL RDS database
 
-![PostgreSQL RDS database](./images/rds-database.png)
+![PostgreSQL RDS database](./docs/images/rds-database.png)
 
 ### CircleCI Pipeline
 
-![CircleCI Pipeline](./images/pipeline.png)
+![CircleCI Build](./docs/images/build.png)
+![CircleCI Deploy](./docs/images/deploy.png)
 
 ### CircleCI ENV
 
-![CircleCI Pipeline environment variables](./images/pipeline-env.png)
+![CircleCI Pipeline environment variables](./docs/images/pipeline-env.png)
 
 ### eb ENV
 
-![Pipeline Schema](./images/eb-env.png)
-
-### Architecture
-
-![Architecture](./images/architecture.png)
+![Pipeline Schema](./docs/images/eb-env.png)
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
