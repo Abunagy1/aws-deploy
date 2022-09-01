@@ -29,7 +29,7 @@ This project is part of the Udacity FullStack JavaScript nanodegree. The code wa
 
 The project is available at
 
-http://randomnagies357889.s3-website-us-east-1.amazonaws.com
+http://udagramrandomenagiesbucket333.s3-website-us-east-1.amazonaws.com
 
 ### Installation
 
